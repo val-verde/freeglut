@@ -110,7 +110,7 @@ typedef void (APIENTRY *PFNGLBUFFERDATAPROC) (GLenum target, ourGLsizeiptr size,
 #endif
 #ifndef GL_VERSION_2_0
 typedef GLuint (APIENTRY *PFNGLCREATESHADERPROC) (GLenum type);
-typedef void (APIENTRY *PFNGLSHADERSOURCEPROC) (GLuint shader, GLsizei count, const ourGLchar **string, const GLint *length);
+typedef void (APIENTRY *PFNGLSHADERSOURCEPROC) (GLuint shader, GLsizei count, const GLchar **string, const GLint *length);
 typedef void (APIENTRY *PFNGLCOMPILESHADERPROC) (GLuint shader);
 typedef GLuint (APIENTRY *PFNGLCREATEPROGRAMPROC) (void);
 typedef void (APIENTRY *PFNGLATTACHSHADERPROC) (GLuint program, GLuint shader);
