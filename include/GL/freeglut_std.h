@@ -136,9 +136,6 @@
 #   include <EGL/egl.h>
 #   include <GLES/gl.h>
 #   include <GLES2/gl2.h>
-#elif __APPLE__
-#   include <OpenGL/gl.h>
-#   include <OpenGL/glu.h>
 #else
 #   include <GL/gl.h>
 #   include <GL/glu.h>
